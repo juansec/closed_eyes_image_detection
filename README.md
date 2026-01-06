@@ -16,10 +16,11 @@ In the lasts stress tests with updated data the modifications here showed a bett
 
 The execution flow changed a little, to use it, you must first import it like this once you cloned the repo: 
 
-import closed_eyes_model
+import closed_eyes_image_detection
+
 from transformers import pipeline
 
-detector = pipeline("image-classification", model="./closed-eyes-model")
+detector = pipeline("image-classification", model="./closed_eyes_image_detection")
 result = detector("image.png")
 
 
