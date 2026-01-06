@@ -1,0 +1,44 @@
+{
+  "best_metric": 0.03104317933320999,
+  "best_model_checkpoint": "closed_eyes_image_detection/checkpoint-1209",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 1209,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.41,
+      "grad_norm": 0.8839295506477356,
+      "learning_rate": 6.117342536669542e-07,
+      "loss": 0.0374,
+      "step": 500
+    },
+    {
+      "epoch": 0.83,
+      "grad_norm": 1.4707915782928467,
+      "learning_rate": 1.80327868852459e-07,
+      "loss": 0.0377,
+      "step": 1000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9904551274589687,
+      "eval_loss": 0.03104317933320999,
+      "eval_runtime": 78.0803,
+      "eval_samples_per_second": 110.028,
+      "eval_steps_per_second": 3.445,
+      "step": 1209
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1209,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 5.991138193072951e+18,
+  "train_batch_size": 64,
+  "trial_name": null,
+  "trial_params": null
+}
